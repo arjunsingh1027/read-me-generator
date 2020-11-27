@@ -1,8 +1,9 @@
-# no
+function generateMarkdown(data) {
+    return `# ${data.title}
 
     ## Description
 
-    no
+    ${data.description}
 
     ## Table of Contents
 
@@ -17,28 +18,35 @@
 
     To install the dependencies needed, run the following command:
 
-    ``    no
-    ``
+    \`\`\
+    ${data.installation}
+    \`\`\
+
     ## Usage
 
-    no
+    ${data.usage}
     
     ## License
     
-    MIT
+    ${data.license}
     
     ## Contributing
     
-    no
+    ${data.contributing}
 
     ## Testing
 
     To run tests, run the command line:
 
-    ``    no
-    ``
+    \`\`\
+    ${data.test}
+    \`\`\
+
     ## Questions
     
-    If you have any questions about the repo, you can contact me at no. You can find more of my work at [no](https://github.com/no/).
+    If you have any questions about the repo, you can contact me at ${data.email}. You can find more of my work at [${data.username}](https://github.com/${data.username}/).
     
-    
+    `;
+}
+
+module.exports = generateMarkdown;
