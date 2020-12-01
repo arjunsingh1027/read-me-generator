@@ -18,9 +18,9 @@ function generateMarkdown(data) {
 
     To install the dependencies needed, run the following command:
 
-    \`\`\
+    \`\`\`
     ${data.installation}
-    \`\`\
+    \`\`\`
 
     ## Usage
 
@@ -38,9 +38,9 @@ function generateMarkdown(data) {
 
     To run tests, run the command line:
 
-    \`\`\
+    \`\`\`
     ${data.test}
-    \`\`\
+    \`\`\`
 
     ## Questions
     
