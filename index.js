@@ -12,7 +12,7 @@ function writeToFile(fileName, data) {
 function init() {
     inquirer.prompt(questions).then((response) => {
         console.log("Making your README now...");
-        writeToFile("README.md", generateMarkdown(response));
+        writeToFile("READMEexample.md", generateMarkdown(response));
     })
 }
 
