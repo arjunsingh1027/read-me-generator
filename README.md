@@ -1,6 +1,6 @@
 # ReadMe Generator
 
-![](gif\recording.gif)
+ ![](gif\recording.gif)
 
     ## Description
 
